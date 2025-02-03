@@ -45,7 +45,7 @@ require_once 'classes/Moto.php';
                 <select name="ts" id="ts" class="form-control" required>
                     <option value="" disabled selected>выберите тип ТС</option>
                     <option value="Auto" <?=$_POST['ts'] ?? '' === 'Auto' ? 'selected' : ''?> >Машина</option>
-                    <option value="Moto" <?=$_POST['ts'] ?? '' === 'Moto' ? 'selected' : ''?> >Мотоцикл</option><</select>
+                    <option value="Moto" <?=$_POST['ts'] ?? '' === 'Moto' ? 'selected' : ''?> >Мотоцикл</option></select>
                 </div>
             </div>
 
